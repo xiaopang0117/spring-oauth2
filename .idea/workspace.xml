@@ -5,18 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d72653fb-4bfe-4ffd-aaed-86ef90df94e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/authserver/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/src/main/java/com/xiaopang/authserver/AuthserverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/src/main/java/com/xiaopang/authserver/config/OAuth2AuthorizationServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/src/main/java/com/xiaopang/authserver/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/src/test/java/com/xiaopang/authserver/AuthserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xiaopang/authserver/AuthServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xiaopang/authserver/config/OAuth2AuthorizationServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xiaopang/authserver/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/test/java/com/xiaopang/authserver/AuthServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-server/src/main/java/com/xiaopang/resourceserver/config/OAuth2ResourceServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-server/src/main/java/com/xiaopang/resourceserver/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/src/main/java/com/xiaopang/authserver/AuthserverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/src/main/java/com/xiaopang/authserver/config/OAuth2AuthorizationServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/src/main/java/com/xiaopang/authserver/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/src/test/java/com/xiaopang/authserver/AuthserverApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +41,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/authserver">
+    <projectState path="$PROJECT_DIR$/auth-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/resource-server">
       <ProjectState />
     </projectState>
   </component>
@@ -33,7 +53,16 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="resource-server" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="resource-server" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -63,6 +92,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -70,20 +103,31 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/XiaoPang_JAVA" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.splitter.proportion" value="0.23694779" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ResourceServerApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,13 +151,26 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="AuthserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="authserver.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaopang.authserver.AuthserverApplication" />
+    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaopang.authserver.AuthServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResourceServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="resource-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaopang.resourceserver.ResourceServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ResourceServerApplication" />
+      <item itemvalue="Spring Boot.AuthServerApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -123,7 +180,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609743120423</updated>
-      <workItem from="1609743122999" duration="478000" />
+      <workItem from="1609743122999" duration="1767000" />
+      <workItem from="1609745361911" duration="950000" />
     </task>
     <servers />
   </component>
